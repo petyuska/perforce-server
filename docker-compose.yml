@@ -2,7 +2,7 @@
 version: '3'
 services:
   perforce:
-    image: derkork/perforce-mini:latest
+    image: petyuska/perforce-server:latest
     restart: unless-stopped
     volumes:
       - ./p4dctl.conf.d:/etc/perforce/p4dctl.conf.d
