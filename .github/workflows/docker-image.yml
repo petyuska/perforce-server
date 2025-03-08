@@ -39,5 +39,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            derkork/perforce-mini:latest
-            ghcr.io/derkork/perforce-mini:latest
+            petyuska/perforce-server:latest
